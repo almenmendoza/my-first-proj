@@ -1,77 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY INFORMATION - ALMEN MENDOZA</title>
-    <link rel="stylesheet" href="style.css?v=3">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mr. Mendoza Health Center - Login</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="d-flex align-items-center justify-content-center min-vh-100">
 
-    <header>
-        <h1>ALMEN MENDOZA</h1>
-        <p>BSIT STUDENT</p>
-    </header>
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="card stat-card-hover shadow-lg" style="max-width: 400px; width: 100%;">
+      
+      <div class="card-header bg-primary text-white text-center py-4">
+        <h2 class="mb-0 fw-bold">Mr. Mendoza Health Center</h2>
+        <p class="mb-0 small">Sign in to manage your healthcare dashboard</p>
+      </div>
 
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+      <div class="card-body p-4">
+        
+        <div id="login-alert" class="alert alert-danger d-none" role="alert"></div>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-             Hello! I am Almen Mendoza, a 3rd-year Bachelor of Science in Information Technology student from Ramon Magsaysay Memorial Colleges G.S.C. 
-             I have a passion to become successful, travel the world, and improve my programming skills.
-            </p>
-        </section>
+        <form id="login-form">
+          <div class="mb-3">
+            <label for="username" class="form-label fw-bold">Username / Patient ID</label>
+            <input type="text" id="username" class="form-control" placeholder="Enter username " required>
+          </div>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li><strong>HTML:</strong> Creating structured, organized, and clean content layouts for basic web pages.</li>
-                <li><strong>CSS:</strong> Styling web layouts with custom colors, fonts, spacing, and visually appealing designs.</li>
-                <li><strong>Java:</strong> Knowledge of basic concepts including data types, variables, loops, conditional statements, and basic problem-solving.</li>
-            </ul>
-        </section>
+          <div class="mb-3">
+            <label for="password" class="form-label fw-bold">Password</label>
+            <input type="password" id="password" class="form-control" placeholder="Enter password " required>
+          </div>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            
-            <article class="project-item">
-                <h3>Personal Portfolio Website</h3>
-                <p>Personal website built with HTML and CSS to showcase my skills and academic projects.</p>
-            </article>
+          <button type="submit" id="login-btn" class="btn btn-primary w-100 fw-bold py-2">Login</button>
+        </form>
 
-            <article class="project-item">
-                <h3>Student Information System</h3>
-                <p>Simple database-driven web application designed to manage student records and enrollment data.</p>
-            </article>
+      </div>
+    </div>
+  </div>
 
-            <article class="project-item">
-                <h3>Student Biography Page</h3>
-                <p>A basic and simple one-page HTML site featuring bio details, course info, and personal background.</p>
-            </article>
-        </section>
-
-        <aside>
-            <h3>Quick Facts</h3>
-            <p><strong>Favorite Quote:</strong> "Ang buhay ay parang gulong, minsan nasa taas at minsan ay nasa baba!"</p>
-            <p><strong>Hobby:</strong> I love playing basketball and mobile games like CODM!</p>
-        </aside>
-    </main>
-
-    <footer id="contact">
-        <p>&copy; 2026 Almen A. Mendoza.</p>
-        <p>Contact: <a href="mailto:almenmendoza441@gmail.com">almenmendoza441@gmail.com</a></p>
-        <p><small>Last updated: August 2026</small></p>
-    </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/login.js"></script>
 </body>
 </html>

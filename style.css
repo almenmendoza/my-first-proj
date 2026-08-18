@@ -1,0 +1,93 @@
+
+:root {
+  --theme-primary: #0d5c3e;     
+  --theme-secondary: #1a936f;    
+  --theme-background: #f0f7f4;   
+  --theme-text: #1a2e24;         
+  --theme-accent: #f3a712;      
+  --theme-light-accent: #d4ece4;  
+}
+
+body {
+  background: linear-gradient(135deg, var(--theme-background) 0%, var(--theme-light-accent) 100%);
+  color: var(--theme-text);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.bg-primary {
+  background-color: var(--theme-primary) !important;
+}
+
+.text-primary {
+  color: var(--theme-primary) !important;
+}
+
+.btn-primary {
+  background-color: var(--theme-primary);
+  border-color: var(--theme-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--theme-secondary);
+  border-color: var(--theme-secondary);
+}
+
+.btn-secondary {
+  background-color: var(--theme-secondary);
+  border-color: var(--theme-secondary);
+}
+
+.navbar-brand-logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: var(--theme-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.stat-card-hover {
+  background-color: #ffffff;
+  border: 1px solid rgba(26, 147, 111, 0.2);
+  border-radius: 10px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.stat-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(13, 92, 62, 0.15) !important;
+}
+
+.border-accent {
+  border-left: 5px solid var(--theme-accent) !important;
+}
+
+.border-primary-custom {
+  border-left: 5px solid var(--theme-primary) !important;
+}
+
+.table-custom-hover tbody tr:hover {
+  background-color: rgba(212, 236, 228, 0.4);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--theme-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--theme-secondary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--theme-primary);
+}

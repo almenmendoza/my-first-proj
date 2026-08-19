@@ -22,20 +22,21 @@
       <div class="card-body p-4">
         
         <div id="login-alert" class="alert alert-danger d-none" role="alert"></div>
+           <form id="loginForm">
+         <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+           <input type="text" class="form-control" id="username" placeholder="Enter username" required>
+         </div>
+  
+           <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+           <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+            </div>
 
-        <form id="login-form">
-          <div class="mb-3">
-            <label for="username" class="form-label fw-bold">Username / Patient ID</label>
-            <input type="text" id="username" class="form-control" placeholder="Enter username " required>
-          </div>
+  <div id="feedback" class="d-none"></div>
 
-          <div class="mb-3">
-            <label for="password" class="form-label fw-bold">Password</label>
-            <input type="password" id="password" class="form-control" placeholder="Enter password " required>
-          </div>
-
-          <button type="submit" id="login-btn" class="btn btn-primary w-100 fw-bold py-2">Login</button>
-        </form>
+  <button type="submit" id="loginBtn" class="btn btn-primary w-100 mt-3">Login</button>
+</form>
 
       </div>
     </div>

@@ -45,5 +45,4 @@ class FilterSearchManager {
   }
 }
 
-// Export instance globally
 window.filterSearchManager = new FilterSearchManager();

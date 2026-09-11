@@ -1,5 +1,3 @@
-// filterSearch.js - Search and Filtering Logic for Mr. Mendoza Health Center
-
 class FilterSearchManager {
   constructor() {
     this.searchInput = null;

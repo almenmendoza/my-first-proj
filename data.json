@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Amoxicillin 500mg", "sku": "MED-AMX-001", "category": "Antibiotics", "price": 12.50, "quantity": 150, "reorderLevel": 30, "status": "In Stock" },
+  { "id": 2, "name": "Lisinopril 10mg", "sku": "MED-LIS-002", "category": "Cardiovascular", "price": 8.00, "quantity": 25, "reorderLevel": 40, "status": "Low Stock" },
+  { "id": 3, "name": "Paracetamol 500mg", "sku": "MED-PAR-003", "category": "Analgesics", "price": 5.00, "quantity": 300, "reorderLevel": 50, "status": "In Stock" },
+  { "id": 4, "name": "Metformin 850mg", "sku": "MED-MET-004", "category": "Antidiabetic", "price": 15.00, "quantity": 10, "reorderLevel": 25, "status": "Low Stock" },
+  { "id": 5, "name": "Omeprazole 20mg", "sku": "MED-OMP-005", "category": "Gastrointestinal", "price": 18.25, "quantity": 0, "reorderLevel": 20, "status": "Out of Stock" }
+]
